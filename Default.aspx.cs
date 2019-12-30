@@ -15,7 +15,7 @@ public partial class _Default : System.Web.UI.Page
     public void GetWeatherInfo(object sender, EventArgs e)
     {
         try { 
-        string appid = "6abfbecb0f08b43ad759b3342080d8a1";
+        string appid = "********************************";
         string url = string.Format("*********************************", txt1City.Text,appid);
 
         using (WebClient client = new WebClient())
