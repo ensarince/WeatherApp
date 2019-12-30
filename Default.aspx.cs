@@ -16,7 +16,7 @@ public partial class _Default : System.Web.UI.Page
     {
         try { 
         string appid = "6abfbecb0f08b43ad759b3342080d8a1";
-        string url = string.Format("http://api.openweathermap.org/data/2.5/forecast?q={0}&units=metric&APPID={1}&cnt=1", txt1City.Text,appid);
+        string url = string.Format("*********************************", txt1City.Text,appid);
 
         using (WebClient client = new WebClient())
         {
